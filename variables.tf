@@ -23,3 +23,4 @@ variable "instance_name" {
 variable "instance_type" {
   default = "Standard_B1s"
 }
+#testing comment
