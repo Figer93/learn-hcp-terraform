@@ -19,3 +19,12 @@ output "address_space" {
 output "tags" {
   value = azurerm_resource_group.rg.tags
 }
+output "organization_name" {
+  value = var.organization_name
+}
+output "workspace_name" {
+  value = var.workspace_name
+}
+output "run_triggers_workspace_names" {
+  value = var.run_triggers_workspace_names
+}
