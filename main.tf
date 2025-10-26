@@ -8,9 +8,6 @@ terraform {
   required_version = ">= 1.1.0"
   cloud {
     organization = "Alex_LearningTerra"
-    workspaces {
-      name = "learn-terraform-azure"
-    }
   }
 }
 

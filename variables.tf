@@ -17,9 +17,6 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
-variable "instance_name" {
-  default = "myTFInstance"
-}
 variable "instance_type" {
   default = "Standard_B1s"
 }
