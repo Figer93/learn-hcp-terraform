@@ -23,4 +23,18 @@ variable "instance_name" {
 variable "instance_type" {
   default = "Standard_B1s"
 }
-#testing comment
+variable "workspace_name" {
+  description = "Name of the source workspace to query."
+  type        = string
+  default     = "learn-hcp-terraform"
+}
+
+variable "organization_name" {
+  description = "Name of the HCP Terraform organization with the source workspace"
+  type        = string
+}
+variable "run_triggers_workspace_names" {
+  description = "List of workspace names to use as run triggers."
+  type        = list(string)
+  default     = []
+}
